@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brnad" href="">Ley de Ohm</a>
+        </div>
+    </nav>
+    <div class="container-fluid" style="margin-top: 20px">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="mb-3">
+                    <label>Calcular Ley de Ohm</label>
+                    <select name="selector" class="form-control" id="slt_operation">
+                        <option value="" disabled selected>seleccione el calculo...</option>
+                        <option value="0">Intensidad</option>
+                        <option value="1">Tension</option>
+                        <option value="2">Resistencia</option>
+                    </select>
+                </div>
+                    <div class="mb-3">
+                        <label  id="lbl_d1">Dato1</label>
+                        <input class="form-control" type="number" id="inp_d1">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label id="lbl_d2">Dato2</label>
+                        <input class="form-control" type="number" id="inp_d2">
+                    </div>
+                <p id="p_descipcion">
+
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    
+    <button id="btn_calcular">Calcular</button>
+
+    <script src="index.js"></script>
+    <script src="indexx.js"></script>
+</body>
+
+</html>
