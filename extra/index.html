@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Formulario de Inscripción</a>
+        </nav>
+        <div class="container mt-3">
+
+            <div class="row">
+
+                <div class="mb-3">
+                    <h4>Aprecie esta hermosura</h4>
+                    <img src="https://s.rfi.fr/media/display/4e4404c2-e1ff-11eb-93d7-005056a97e36/w:1280/p:16x9/6810d688ac49f62abca98cd55ae7502bfe380c56.webp" class="img-reposive">
+                    <h4>Ahora siga con el formulario</h4>
+                </div>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Aceptar
+                </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mb-3">
+                                        <label>Usuario</label>
+                                        <input id="inp_1" class="form-control" type="text" placeholder="Escribir usuario o correo">
+                                        <label>Contraseña</label>
+                                        <input id="inp_2" class="form-control" type="text" placeholder="Escribir Contraseña">
+                                        <div class="mt-3">
+                                            <button id="btn_button" class="btn btn-primary">Guardar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+        
+        
+        
+    </body>
+</html>
