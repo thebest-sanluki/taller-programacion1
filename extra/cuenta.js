@@ -10,7 +10,7 @@ export default class Cuenta {
 
     guardarCuenta()
     {
-
+        console.log(this.usuario)
     }
 
     eliminarCuenta()

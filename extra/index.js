@@ -6,6 +6,7 @@ const password = document.getElementById("inp_2").value;
 
 const instancia = new Cuenta(usuario,password);
 
+instancia.guardarCuenta();
 }
 
 document.getElementById("btn_button").addEventListener("click",almacenar);
